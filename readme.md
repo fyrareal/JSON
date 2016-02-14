@@ -1,10 +1,10 @@
 # JSON with Android
 
-udah bisa mendapatkan data?
+android get data from API
 
 ## Installation
 
-cara installasinya gimana?
+cara instalasi
 
 ## Usage
 
