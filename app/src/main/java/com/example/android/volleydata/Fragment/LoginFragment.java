@@ -50,7 +50,7 @@ public class LoginFragment extends Fragment implements VolleyInterface {
                 map.put(Template.Query.TAG, Template.Query.LOGIN);
                 map.put(Template.Query.USERNAME, mUsername.getText().toString());
                 map.put(Template.Query.PASSWORD, mPassword.getText().toString());
-                mRequest.sendPostRequest(EndpointAPI.ANDEVINDO, map);
+                mRequest.sendPostRequest(EndpointAPI.JATI, map);
             }
         });
 

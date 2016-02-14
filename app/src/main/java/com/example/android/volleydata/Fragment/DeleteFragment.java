@@ -99,7 +99,7 @@ public class DeleteFragment extends Fragment implements VolleyInterface {
                 Map<String,String> map = new HashMap<>();
                 map.put(Template.Query.TAG, Template.Query.FIND);
                 map.put(Template.Query.USERNAME, mUsername.getText().toString());
-                mRequestFind.sendPostRequest(EndpointAPI.ANDEVINDO, map);
+                mRequestFind.sendPostRequest(EndpointAPI.JATI, map);
             }
         });
 
@@ -110,7 +110,7 @@ public class DeleteFragment extends Fragment implements VolleyInterface {
                 Map<String, String> map = new HashMap<>();
                 map.put(Template.Query.TAG, Template.Query.DELETE);
                 map.put(Template.Query.USERNAME, mUsername.getText().toString());
-                mRequestDelete.sendPostRequest(EndpointAPI.ANDEVINDO, map);
+                mRequestDelete.sendPostRequest(EndpointAPI.JATI, map);
             }
         });
         return view;

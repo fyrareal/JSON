@@ -103,7 +103,7 @@ public class UpdateFragment extends Fragment {
                 Map<String, String> map = new HashMap<>();
                 map.put(Template.Query.TAG, Template.Query.FIND);
                 map.put(Template.Query.USERNAME, mUsernameBefore.getText().toString());
-                mRequestFind.sendPostRequest(EndpointAPI.ANDEVINDO, map);
+                mRequestFind.sendPostRequest(EndpointAPI.JATI, map);
             }
         });
 
@@ -116,7 +116,7 @@ public class UpdateFragment extends Fragment {
                 map.put(Template.Query.USERNAME_BEFORE, mUsernameBefore.getText().toString());
                 map.put(Template.Query.USERNAME, mUsernameAfter.getText().toString());
                 map.put(Template.Query.PASSWORD, mPasswordAfter.getText().toString());
-                mRequestUpdate.sendPostRequest(EndpointAPI.ANDEVINDO, map);
+                mRequestUpdate.sendPostRequest(EndpointAPI.JATI, map);
             }
         });
         return view;

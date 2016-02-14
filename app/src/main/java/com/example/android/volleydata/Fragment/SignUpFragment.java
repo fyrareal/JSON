@@ -52,7 +52,7 @@ public class SignUpFragment extends Fragment implements VolleyInterface {
                 map.put(Template.Query.TAG, Template.Query.SIGNUP);
                 map.put(Template.Query.USERNAME, mUsername.getText().toString());
                 map.put(Template.Query.PASSWORD, mPassword.getText().toString());
-                mRequest.sendPostRequest(EndpointAPI.ANDEVINDO, map);
+                mRequest.sendPostRequest(EndpointAPI.JATI, map);
             }
         });
         return view;
